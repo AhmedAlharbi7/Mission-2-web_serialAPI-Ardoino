@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html >
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Speech to Text</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="StyleSheet.css">
+
+</head>
+<body>
+
+
+    <div class="container">
+
+
+        <h2>Works well with Google Chrome</h2>
+        <p class="page-description">Web for Task 2 that Move The arms by speech</p>
+
+        <div class="input-single">
+            <textarea id="convert_text" placeholder="Create a text using voice recognition."></textarea>
+        </div>
+
+        <p id="recording-instructions">Press the <strong>Start Recognition</strong> button and allow access.</p>
+        <button id="click_to_start" class="Connect-btn" title="Start Recording">Start Recognition</button>
+
+        <button class="Connect-btn" onclick="onConnectUsb()" id="ConnectUsb">Connect</button>
+    </div>
+
+    <script src="SoundToText.js"></script>
+    <script src="Script-Arduino.js"></script>
+
+
+
+</body>
+</html>
