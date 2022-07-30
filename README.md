@@ -15,7 +15,7 @@ You should consider these steps to run the web,
 * then run this file in specific port serial and i have done that but to be sure (and serial library in javascript) it will connect with the web interface, 
 
 ![image](https://user-images.githubusercontent.com/109436965/181937386-67a86d8b-322c-40b7-9261-a1caba5a3559.png)
-## The Web : file:///D:/VisualStudio/SoundToText/web.html
+
 
 ## Recource : https://web.dev/serial/
 
